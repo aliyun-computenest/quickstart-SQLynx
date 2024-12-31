@@ -1,6 +1,6 @@
 # SQLynx部署安装使用手册
 
-[SQLynx](http://www.maicongs.com)，是一款一站式Web数据库管理平台，支持分布式部署和远程访问，具备SQL历史查询、导入导出、测试数据生成及数据对比等功能。审计、权限和风险管理增强了对企业OLTP场景的支持。SQLynx兼容主流及国产数据库，适用于Windows、MacOS、Linux及国产操作系统。
+[SQLynx](https://www.sqlynx.com/zh-cn/)，是一款一站式Web数据库管理平台，支持分布式部署和远程访问，具备SQL历史查询、导入导出、测试数据生成及数据对比等功能。审计、权限和风险管理增强了对企业OLTP场景的支持。SQLynx兼容主流及国产数据库，适用于Windows、MacOS、Linux及国产操作系统。
 
 ---
 
@@ -95,7 +95,7 @@
 
 ## 联系我们
 
-- 欢迎访问SQLynx官网（[http://www.maicongs.com](http://www.maicongs.com)）了解更多信息。
+- 欢迎访问SQLynx官网（[https://www.sqlynx.com/zh-cn/](https://www.sqlynx.com/zh-cn/）了解更多信息。
 - 联系邮箱：[lyx@bjlongway.com](mailto:lyx@bjlongway.com)
 - 售后微信/电话：18292683166
 

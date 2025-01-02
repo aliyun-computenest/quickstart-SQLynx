@@ -84,11 +84,12 @@
 
 ## [使用手册]()
 
-<iframe src="img/SQLynx_userHandBook.pdf" width="1000" height="800"></iframe>
+[查看 SQLynx 用户手册](img/SQLynx_userHandBook.pdf)
 
 
 
-> ##激活企业版  
+
+> **激活企业版**
   新采购/续费软件产品时，若需激活企业版，点击系统内设置按钮出的”激活企业版“获取机器码后，添加售后/客服微信或向售后邮箱内发送机器码获取 license 文件，，获取到文件后可在此处上传厂商提供的 license 文件，激活企业版 SQLynx。  
  ![img.png](img/activateEnterprise.png)
 --

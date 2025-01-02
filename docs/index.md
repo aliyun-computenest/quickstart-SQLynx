@@ -30,12 +30,12 @@
 
 首先，为了保证服务部署后，能够成功连接不同IP的数据源，您需要在ECS的安全组中配置数据源的ip和port。目前内置安全组只包含MySql连接端口。
 此外，企业版用户若需要使用账户中已存在的RDS资源作为服务后端数据库，是RDS_MySql更好地兼容SQLynx的功能，需要提前配置好账户中已存在的RDS资源中的用户以及RDS白名单内需要配置使用SQLynx服务是需要连接的数据源IP。
-
+![img.png](img/ECS_SecurityGroup.png)
 ### RDS配置
 
 1.已经存在的RDS需要在账户管理中创建一个高权限的账号用户  
 2. 白名单设置中添加您部署的ECS实例ip、需要连接的数据源IP或者全部开放：即将 0.0.0.0/0 加入白名单。白名单IP段设置为0.0.0.0/0意味着对公网开放。  
-![img.png](img/settingRoot.png)
+![img.png](img/RDS_SecurityGroup.png)
 
 ## [计费说明]()
 

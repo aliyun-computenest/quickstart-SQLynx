@@ -84,7 +84,8 @@
 
 ## [使用手册]()
 
-[查看 SQLynx 用户手册](img/SQLynx_userHandBook.pdf)
+[点击这里下载 SQLynx 用户手册](img/SQLynx_userHandBook.pdf)
+
 
 
 

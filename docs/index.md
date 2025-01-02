@@ -35,7 +35,7 @@
 
 1.已经存在的RDS需要在账户管理中创建一个高权限的账号用户  
 2. 白名单设置中添加您部署的ECS实例ip、需要连接的数据源IP或者全部开放：即将 0.0.0.0/0 加入白名单。白名单IP段设置为0.0.0.0/0意味着对公网开放。  
-![img.png](/img/settingRoot.png)
+![img.png](img/settingRoot.png)
 
 ## [计费说明]()
 
@@ -48,7 +48,7 @@
 ## [部署架构]()
 
 企业版SQLynx与阿里云的集成架构设计旨在通过灵活的部署方式来实现高效的服务交付。首先，用户需要一个阿里云账号，并通过计算巢平台配置云服务器（ECS）和数据库（RDS）等基础服务。SQLynx的部署可通过三种方式实现：一是将ECS与RDS配合使用，服务模块部署在ECS，数据库为私有化的RDS服务，SQLynx通过拉取在计算巢的部署物进行初始化部署和使用；二是使用公共RDS服务，连接方式为多对一；三是轻量化单机部署，将SQLynx直接安装在已有的ECS上，使用内置的Sqlite数据库。此架构简化了ECS实例的创建与管理，支持自动化部署，并通过安全组设置来管理网络访问，确保系统的安全性与稳定性。
- ![img.png](/img/architecture.png)
+ ![img.png](img/architecture.png)
 
 ## [参数说明]()
 
@@ -77,20 +77,20 @@
 3. 确认订单完成后同意服务协议并点击**立即创建** 进入部署阶段。
 4. 等待部署完成后就可以开始使用服务，进入服务实例详情点击SQLynx链接。  
 
- ![img.png](/img/deployPage.png)
+ ![img.png](img/deployPage.png)
 
 
 ---
 
 ## [使用手册]()
 
-<embed src="/img/SQLynx_userHandBook.pdf" width="1000" height="800" type="application/pdf">  
+<embed src="img/SQLynx_userHandBook.pdf" width="1000" height="800" type="application/pdf">  
 
 
 
 > #####激活企业版  
   新采购/续费软件产品时，若需激活企业版，点击系统内设置按钮出的”激活企业版“获取机器码后，添加售后/客服微信或向售后邮箱内发送机器码获取 license 文件，，获取到文件后可在此处上传厂商提供的 license 文件，激活企业版 SQLynx。  
- ![img.png](/img/activateEnterprise.png)
+ ![img.png](img/activateEnterprise.png)
 --
 
 ## 联系我们
@@ -101,7 +101,7 @@
 
 扫码关注微信公众号，技术博客、活动通知不容错过：  
 
- ![img.png](/img/wechatSQLynx.png)
+ ![img.png](img/wechatSQLynx.png)
 
 
 
